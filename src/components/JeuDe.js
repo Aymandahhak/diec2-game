@@ -18,7 +18,7 @@ export default class JeuDe extends React.Component {
 
   getImage() {
     // Returns the image path based on the dice face value
-    return this.state.face ? `images/face${this.state.face}.png` : "images/Dé.PNG";
+    return this.state.face ? ` images/face${this.state.face}.png ` : "images/Dé.PNG";
   }
 
   initialiser() {
