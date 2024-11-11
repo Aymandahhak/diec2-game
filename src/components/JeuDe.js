@@ -32,7 +32,7 @@ export default class JeuDe extends React.Component {
     return (
       <div>
         <h1>Jeu de Dé...</h1>
-        <img src={this.getImage()} style={styleImage} alt="dice face" />
+        <img src={this.getImage()} style={styleImage} alt="face" />
         <h2>Face: {this.state.face || "-"}</h2>
         <h2>Nombre d'essais: {this.state.compteur}</h2>
         <button onClick={() => this.jouer()}>Jouer</button>
